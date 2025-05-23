@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+Features Implemented
+Project setup for emulator and real device testing
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Google Authentication integration using Clerk.dev
 
-## Get started
+Modern UI design using React Native components
 
-1. Install dependencies
+FlatList for rendering dynamic lists efficiently
 
-   ```bash
-   npm install
-   ```
+Navigation using Expo Router, including:
 
-2. Start the app
+Tab Navigation
 
-   ```bash
-    npx expo start
-   ```
+Stack Navigation
 
-In the output, you'll find options to open the app in a
+Expo native modules for device functionality
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Firebase integration for backend services:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Add, retrieve, update, and delete data
 
-## Get a fresh project
+Image Picker to upload images from device storage
 
-When you're ready, run:
+Tech Stack
+React Native (Expo)
 
-```bash
-npm run reset-project
-```
+Clerk.dev (for authentication)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Firebase (Realtime Database)
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Router (for navigation)
